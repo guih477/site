@@ -1,0 +1,126 @@
+body{
+    background: linear-gradient( #7a73b7, #000000);
+    font-size: 100%
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    grid-gap: 32px;
+}
+
+.cabecalho-menu-item{
+    color: white;
+    font-size: 18px;
+    font-weight: 400
+}
+
+.cabecalho-link{
+    color: white;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0,4px solid ;
+    color:white;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    grid-gap:  32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-weight: 400;
+    font-size: 64px;
+    color: white;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-weight: 400;
+    font-size: 24px;
+    color: white; 
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: white;
+    color: black;
+    width: 180px;
+    height: 67px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 24px; 
+    cursor: pointer;
+}
+
+.conteudo-principal-imagem{
+    height: 480px;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 10px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: o.4px solid;
+    padding-top: 48px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo{
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+
+}
+
+.conteudo-terciario-titulo{
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.conteudo-terciario-paragrafo{
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+}
+
+.conteudo-terciario-imagem{
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+h4{
+    
+    color: white;
+}
+
+
